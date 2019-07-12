@@ -1,0 +1,14 @@
+C:\Users\ishwar.chandra\source\repos\ASPDOTNETCOREWEBAPI\ASPDOTNETCOREWEBAPI\bin\Debug\netcoreapp2.1\ASPDOTNETCOREWEBAPI.deps.json
+C:\Users\ishwar.chandra\source\repos\ASPDOTNETCOREWEBAPI\ASPDOTNETCOREWEBAPI\bin\Debug\netcoreapp2.1\ASPDOTNETCOREWEBAPI.runtimeconfig.json
+C:\Users\ishwar.chandra\source\repos\ASPDOTNETCOREWEBAPI\ASPDOTNETCOREWEBAPI\bin\Debug\netcoreapp2.1\ASPDOTNETCOREWEBAPI.runtimeconfig.dev.json
+C:\Users\ishwar.chandra\source\repos\ASPDOTNETCOREWEBAPI\ASPDOTNETCOREWEBAPI\bin\Debug\netcoreapp2.1\ASPDOTNETCOREWEBAPI.dll
+C:\Users\ishwar.chandra\source\repos\ASPDOTNETCOREWEBAPI\ASPDOTNETCOREWEBAPI\obj\Debug\netcoreapp2.1\ASPDOTNETCOREWEBAPI.csprojAssemblyReference.cache
+C:\Users\ishwar.chandra\source\repos\ASPDOTNETCOREWEBAPI\ASPDOTNETCOREWEBAPI\obj\Debug\netcoreapp2.1\ASPDOTNETCOREWEBAPI.csproj.CoreCompileInputs.cache
+C:\Users\ishwar.chandra\source\repos\ASPDOTNETCOREWEBAPI\ASPDOTNETCOREWEBAPI\obj\Debug\netcoreapp2.1\ASPDOTNETCOREWEBAPI.RazorAssemblyInfo.cache
+C:\Users\ishwar.chandra\source\repos\ASPDOTNETCOREWEBAPI\ASPDOTNETCOREWEBAPI\obj\Debug\netcoreapp2.1\ASPDOTNETCOREWEBAPI.RazorAssemblyInfo.cs
+C:\Users\ishwar.chandra\source\repos\ASPDOTNETCOREWEBAPI\ASPDOTNETCOREWEBAPI\obj\Debug\netcoreapp2.1\ASPDOTNETCOREWEBAPI.AssemblyInfoInputs.cache
+C:\Users\ishwar.chandra\source\repos\ASPDOTNETCOREWEBAPI\ASPDOTNETCOREWEBAPI\obj\Debug\netcoreapp2.1\ASPDOTNETCOREWEBAPI.AssemblyInfo.cs
+C:\Users\ishwar.chandra\source\repos\ASPDOTNETCOREWEBAPI\ASPDOTNETCOREWEBAPI\obj\Debug\netcoreapp2.1\ASPDOTNETCOREWEBAPI.RazorTargetAssemblyInfo.cache
+C:\Users\ishwar.chandra\source\repos\ASPDOTNETCOREWEBAPI\ASPDOTNETCOREWEBAPI\bin\Debug\netcoreapp2.1\ASPDOTNETCOREWEBAPI.pdb
+C:\Users\ishwar.chandra\source\repos\ASPDOTNETCOREWEBAPI\ASPDOTNETCOREWEBAPI\obj\Debug\netcoreapp2.1\ASPDOTNETCOREWEBAPI.dll
+C:\Users\ishwar.chandra\source\repos\ASPDOTNETCOREWEBAPI\ASPDOTNETCOREWEBAPI\obj\Debug\netcoreapp2.1\ASPDOTNETCOREWEBAPI.pdb
