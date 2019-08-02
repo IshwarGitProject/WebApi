@@ -24,14 +24,40 @@ namespace ASPDOTNETCOREWEBAPI.Controllers
         public List<EmployeeDetails> GetEmployeeDetails()
         {
             List<EmployeeDetails> odata = new List<EmployeeDetails>();
-            odata.Add(new EmployeeDetails
+            string connectionString = _iconfiguration.GetValue<string>("Data:ConnectionString");
+            SqlConnection conn = new SqlConnection(connectionString);
+            SqlDataReader rdr;
+            SqlCommand cmd = new SqlCommand("getAllEmployee", conn);
+            cmd.CommandType = CommandType.StoredProcedure;
+            conn.Open();
+            rdr = cmd.ExecuteReader();
+            
+
+            while (rdr.Read())
             {
-                Id = 1,
-                EmpName = "Ishwar",
-                EmailId = "Software",
-                Address = "SSE",
-                DateOfBirth = Convert.ToDateTime("10/10/2019")
-            });
+                EmployeeDetails emp = new EmployeeDetails();
+                emp.Id = Convert.ToInt32(rdr["Id"]);
+                emp.EmpName = Convert.ToString(rdr["EmpName"]);
+                emp.EmailId = Convert.ToString(rdr["EmailId"]);
+                emp.Address = Convert.ToString(rdr["Address"]);
+                emp.DateOfBirth = Convert.ToDateTime(rdr["DOB"]);
+                emp.Gender = Convert.ToInt32(rdr["Gender"]);
+                emp.PinCode = Convert.ToInt32(rdr["PinCode"]);
+                odata.Add(emp);
+            }
+            rdr.Close();
+            conn.Close();
+
+
+
+            //odata.Add(new EmployeeDetails
+            //{
+            //    Id = 1,
+            //    EmpName = "Ishwar",
+            //    EmailId = "Software",
+            //    Address = "SSE",
+            //    DateOfBirth = Convert.ToDateTime("10/10/2019")
+            //});
             return odata;
         }
         [HttpPost]
